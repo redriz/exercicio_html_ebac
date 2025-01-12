@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: darkcyan;
+}
+
+#sports h2 {
+    color: blue;
+}
+
+#economy h2 {
+    color: green;
+}
+
+time {
+    color: gray;
+}
