@@ -1,19 +1,14 @@
-body {
-    font-family: Arial, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1 {
-    color: darkcyan;
+header li {
+    display: inline;
 }
 
-#sports h2 {
-    color: blue;
-}
-
-#economy h2 {
-    color: green;
-}
-
-time {
-    color: gray;
+.container {
+    width: 1366px;
+    margin: 0 auto;
 }
