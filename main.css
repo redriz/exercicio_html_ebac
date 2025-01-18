@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,6 +11,13 @@ body > header {
     background-color: #2f3640;
     color: #f2f2f2;
     padding: 16px 0px;
+    font-family: PT Serif, serif;
+}
+
+header .container a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-weight: 700;
 }
 
 header .container {
@@ -19,12 +28,15 @@ header .container {
 
 header li {
     display: inline;
+    margin-left: 16px;
 }
 
 header li a {
     color: #f2f2f2;
     text-decoration: none;
     padding: 8px;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
 }
 
 .container {
@@ -79,7 +91,7 @@ section h2, .articles article {
 }
 
 .articles article p, .articles article a {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, sans-serif;
     margin-bottom: 8px;
 }
 
@@ -89,6 +101,7 @@ section h2, .articles article {
 
 section h2 {
     font-size: 32px;
+    font-family: 'PT Serif', serif;
 }
 
 #sports {
