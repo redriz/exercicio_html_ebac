@@ -105,7 +105,11 @@ section h2 {
 }
 
 #sports {
-    background-color: rgba(0, 255, 0, 0.1);
+    background-color: #00ff001a;
+}
+
+#sports h2 {
+    color: #006b00;
 }
 
 #sports .articles article a {
@@ -121,7 +125,11 @@ section h2 {
 }
 
 #economy {
-    background-color: rgba(255, 255, 0, 0.1);
+    background-color: #ffff001a;
+}
+
+#economy h2 {
+    color: #7f6f00;
 }
 
 #economy .articles article a {
@@ -134,4 +142,52 @@ section h2 {
 
 #economy .articles article a:active {
     background-color: #5a4b00;
+}
+
+#entertainment {
+    background-color: #ff00001a;
+}
+
+#entertainment h2 {
+    color: #7f0000;
+}
+
+#entertainment .articles article a {
+    background-color: #7f0000;
+}
+
+#entertainment .articles article a:hover {
+    background-color: #9b0000;
+}
+
+#entertainment .articles article a:active {
+    background-color: #5a0000;
+}
+
+#technology {
+    background-color: #0000ff1a;
+}
+
+#technology h2 {
+    color: #00007f;
+}
+
+#technology .articles article a {
+    background-color: #00307f;
+}
+
+#technology .articles article a:hover {
+    background-color: #004fbe;
+}
+
+#technology .articles article a:active {
+    background-color: #001f4a;
+}
+
+footer {
+    background-color: #1f1f1f;
+    color: #f2f2f2;
+    padding: 16px 0px;
+    font-family: Roboto, sans-serif;
+    text-align: right;
 }
